@@ -1,0 +1,94 @@
+/* =Simple animation up */
+.no-touch .slideInUp {
+    visibility: hidden;
+    opacity: .1;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+    /*-ms-transform: rotate(45deg); /!* IE 9 *!/*/
+    /*-webkit-transform: rotate(45deg); /!* Chrome, Safari, Opera *!/*/
+    /*transform: rotate(45deg);*/
+}
+
+.no-touch .is-active .slideInUp {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+}
+
+.slideInUp.slideInUp2 {
+    -webkit-transition-delay: .2s;
+    transition-delay: 0.2s;
+
+
+
+
+}
+
+.slideInUp.slideInUp3 {
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+
+
+}
+
+.slideInUp.slideInUp4 {
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.slideInUp.slideInUp5 {
+    -webkit-transition-delay: .8s;
+    transition-delay: .8s;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.slideInUp.slideInUp6 {
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+
+}
+
+.slideInUp.slideInUp7 {
+    -webkit-transition-delay: 1.2s;
+    transition-delay: 1.2s;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.slideInUp.slideInUp8 {
+    -webkit-transition-delay: 1.4s;
+    transition-delay: 1.4s;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+
+
+
+/* Custom, iPhone Retina */
+@media  (min-width : 300px) and (max-width : 768px) {
+    .slideInUp {
+
+        -ms-transform: rotate(0deg) !important; /* IE 9 */
+        -webkit-transform: rotate(0deg) !important; /* Chrome, Safari, Opera */
+        transform: rotate(0deg) !important;
+    }
+
+}

@@ -1,0 +1,362 @@
+body{
+
+    background-color: #ffffff;
+}
+
+.navbar-brand img{
+
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.parallax-search, .mobile-banner-wrap .layer {
+    border: 0px solid red;
+    min-height: 300px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.nav > li {
+    background-color: transparent;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    height: 100px;
+    margin-top: -29px;
+}
+
+.navbar-inverse {
+    top: 30px !important;
+    background-color: transparent;
+    border: none;
+    top: 10px;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #e2e3e4;
+    padding-top: 35px;
+    /*padding-bottom: 28px;*/
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    background-color: transparent;
+    font-size: 16px;
+    letter-spacing: -.5px;
+    padding-left: 9px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ff6f00;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #ff6f00;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ff6f00;
+}
+
+.navbar-inverse {
+    background-color: #2a3843;
+    height: 100px;
+}
+
+.slider{
+    width: 100%;
+}
+
+
+.Contact{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: -263px;
+    text-align: left;
+    margin-left: 100px;
+
+}
+
+
+.Features {
+    padding: 115px 0 67px 0;
+    background: #ffffff;
+}
+
+.Features h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2d3c48;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.Features p {
+    color: #2d3c48;
+    font-size: 14px;
+    font-family: "SF-UI-Display-Light";
+    text-align: center;
+    height: 80px;
+    overflow: hidden;
+
+}
+
+.features-icon1 {
+    background: center 91px;
+    height: 92px;
+    overflow: hidden;
+    display: block;
+    width: 92px;
+    display: inline-block;
+}
+
+.Features-box {
+    background: #f7f7f7;
+    border-radius: 15px;
+    padding: 31px 20px 19px 20px;
+    margin-bottom: 33px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.col-md-4 {
+    width: 33%;
+    margin-left: 40px;
+}
+.title {
+    margin-left: -90px;
+    margin-top: 33px;
+}
+
+
+.titlePar{
+    padding: 20px;
+
+    color: #000000;
+}
+
+.Feature-icon {
+    font-size: 30px !important;
+    background: #fff;
+    padding: 27px 0;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 3px solid #2d3c48;
+    color: #2d3c48;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 91px;
+    height: 91px;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.Features-box:hover .Feature-icon {
+    background: #ff6f00;
+    color: #fff;
+    border: 3px solid #ff6f00;
+
+}
+
+.fix-editor {
+    display: none;
+}
+
+.icon-wrapper {
+    display: inline-block;
+}
+
+.Features-box:hover .icon {
+    width: 92px;
+}
+
+.Features-box:hover .Features-titl {
+    color: #ff6f00;
+}
+.feature{
+    margin-left: -16px;
+    margin-top: 149px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #ff6f00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #2d3c48;
+}
+
+/* Add a background color and some padding around the form */
+.cont {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    margin-top: -1021px;
+    margin-left: -47px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+
+}
+
+
+
+.list-group-item {
+    padding: 14px 15px 15px 15px;
+    border-left: transparent;
+    border-right: transparent;
+    background: transparent;
+    font-size: 12px;
+    max-height: 53px;
+    overflow: hidden;
+}
+
+.aboutUs{
+    color: #ffffff;
+    margin-left: -64px;
+}
+
+
+.left{
+
+}
+.left h3 ,p , li a{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.left h3 ,p{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.list-group {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.social{
+
+    margin-right: 107px;
+
+
+}
+
+.social-icon  a i {
+    font-size: 21px;
+    padding-right: 3px;
+    margin-right: 64px;
+    text-align: left;
+    display: contents;
+
+
+}
+
+.social > li {
+    padding-left: 0;
+    padding-right: 0;
+    display: contents;
+
+}
+.social-icon{
+    margin-left: -92px;
+    padding-left: 123px;
+    display: inline-flex;
+
+
+}
+.social.social-icon a i:hover {
+    color: #2d3c48;
+}
+
+
+
+.subFont{
+    color: #ffffff;
+}
+
+#name{
+    width: 140px;
+}
+
+.footer {
+    background-color:#2d3c48  ;
+    padding: 13px 0 2px 0;
+    height: 347px;
+    color: #82888e;
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.list-group2{
+    padding-left: 4px;
+    margin-bottom: 4px;
+    padding-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
